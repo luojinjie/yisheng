@@ -1,0 +1,36 @@
+/* CSS Document */
+body,h1,h2,h3,h4,h5,h6,hr,p,span,blockquote,dl,dt,dd,ul,ol,li,pre,form,fieldset,legend,button,input,textarea,th,td,select,object,a { margin:0;padding:0;outline: none; }
+body {
+	font-family: "黑体";
+	font-size:12px;
+}
+ul,ol {
+	list-style-type:none;
+}
+address,cite,code,em,th,i,h1,h2,h3,h4,h5,h6 {
+	font-weight:normal;
+	font-style:normal;
+}
+img {
+	border:none;
+	vertical-align: middle;
+}
+textarea {
+	overflow: auto;
+}
+a {
+	text-decoration:none;
+}
+
+/*清除浮动*/
+.clearfix:after {
+    display: block;
+    visibility: hidden;
+    clear: both;
+    overflow: hidden;
+    height: 0;
+    content: '\0020';
+}
+.clearfix {
+    zoom: 1;
+}
